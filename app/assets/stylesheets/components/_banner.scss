@@ -1,0 +1,37 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  // margin-top: -66px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner-container {
+  position: absolute;
+  bottom: 30%;
+  left: 80px;
+  width: 50vw;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bidule {
+  height: 100vh;
+  background-color: yellow;
+}

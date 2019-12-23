@@ -1,12 +1,28 @@
-.navbar-lewagon {
+.navbar-glory {
   justify-content: space-between;
-  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  // écrire une règle lorsqu'on commence à scroller, background plein
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-glory .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-glory .navbar-brand img {
   width: 40px;
+}
+
+.nav-item {
+  font-size: 12px;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: $red !important;
 }
