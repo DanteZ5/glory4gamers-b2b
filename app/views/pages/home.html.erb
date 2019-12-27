@@ -25,26 +25,26 @@
   <div class="value-proposition">
     <h2>Devenez partenaire de la <span>1ère plateforme esport</span> en France</h2>
     <div class="value-container">
-      <div class="value-metrics">
+      <div class="value-metrics" data-aos="flip-up">
         <h2>+970.000</h2>
         <p>utilisateurs</p>
       </div>
-      <div class="value-metrics">
+      <div class="value-metrics" data-aos="flip-up">
         <h2>+700.000€</h2>
         <p>cashprize distributés</p>
       </div>
-      <div class="value-metrics">
+      <div class="value-metrics" data-aos="flip-up">
         <h2>+150.000</h2>
         <p>participations mensuelles</p>
       </div>
     </div>
     <div class="new-choice-container">
-      <div class="choice-left">
+      <div class="choice-left" data-aos="fade-right">
         <%= link_to pages_realisations_path, class: "choice-link" do %>
           <%= image_tag "https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6297-hand-1.png?date=20170628-2" %>
         <% end %>
       </div>
-      <div class="choice-right">
+      <div class="choice-right" data-aos="fade-left">
         <%= link_to pages_offers_path, class: "choice-link" do %>
           <%= image_tag "https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6298-hand-2.png?date=20170628-2" %>
         <% end %>
@@ -61,3 +61,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
