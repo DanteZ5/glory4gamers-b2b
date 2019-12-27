@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'pages/realisations'
   get 'pages/offers'
   get 'pages/about'
-  post 'pages/contact_request'
+  # post 'pages/contact_request'
 
 
   root to: 'pages#home'
