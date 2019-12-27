@@ -22,24 +22,37 @@
       <div class="slide"><img src="https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6263-france-tv.png?date=20170628-2" alt="France Television"></div>
   </div>
 
-  <div class="value-proposition" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1560369457-fb1181a7ac4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2851&q=80);">
+  <div class="value-proposition">
+    <h2>Devenez partenaire de la <span>1ère plateforme esport</span> en France</h2>
     <div class="value-container">
-      <h2>Devenez partenaire de la 1ère plateforme esport en France</h2>
-      <ul>
-        <li><span>+970.000</span> joueurs inscrits</li>
-        <li><span>+700.000</span> € de cashprize distribués</li>
-        <li><span>+150.000</span> participations mensuelles</li>
-      </ul>
+      <div class="value-metrics">
+        <h2><span>+970.000</span></h2>
+        <p>utilisateurs</p>
+      </div>
+      <div class="value-metrics">
+        <h2><span>+700.000€</span></h2>
+        <p>cashprize distributés</p>
+      </div>
+      <div class="value-metrics">
+        <h2><span>+150.000</span></h2>
+        <p>participations mensuelles</p>
+      </div>
+    </div>
+    <div class="new-choice-container">
+      <div class="choice-left">
+        <%= link_to pages_realisations_path, class: "choice-link" do %>
+          <%= image_tag "https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6297-hand-1.png?date=20170628-2" %>
+        <% end %>
+      </div>
+      <div class="choice-right">
+        <%= link_to pages_offers_path, class: "choice-link" do %>
+          <%= image_tag "https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6298-hand-2.png?date=20170628-2" %>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="choice" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6295-morpheus.png?date=20170628-2);">
-  <div class="choice-container">
-    <%= link_to "NOS RÉALISATIONS", pages_realisations_path, class:"call-btn" %>
-    <%= link_to "NOS OFFRES", pages_offers_path, class:"call-btn" %>
-  </div>
-</div>
 
 <div class="contact-form" id="contact">
   <h2>CONTACT</h2>
