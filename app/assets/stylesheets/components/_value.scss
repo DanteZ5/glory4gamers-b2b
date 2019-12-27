@@ -1,14 +1,13 @@
 .value-proposition {
   background-color: #000;
-  height: 100vh;
   color: #fff;
-  padding-top: 40px;
+  padding: 40px;
   h2 {
-    font-size: 5vh;
+    font-size: 36px;
     text-align: center;
   }
   p {
-    font-size: 3vh;
+    font-size: 22px;
   }
   span {
     font-weight: bold;
@@ -28,6 +27,12 @@
 .new-choice-container {
   display: flex;
   justify-content: center;
+}
+
+.choice-link {
+  img {
+    width: 40vw;
+  }
 }
 
 
