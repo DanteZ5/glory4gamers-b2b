@@ -1,18 +1,17 @@
-.navbar-glory {
+#navbar-glory {
   justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 99;
-  // écrire une règle lorsqu'on commence à scroller, background plein
-  // background-color: #000;
+  transition: all 0.3s ease-out;
 }
 
-.navbar-glory .navbar-collapse {
+#navbar-glory .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-glory .navbar-brand img {
+#navbar-glory .navbar-brand img {
   width: 40px;
 }
 
@@ -26,4 +25,9 @@
 
 .nav-link:hover {
   color: $red !important;
+}
+
+.bg-black {
+  background-color: #000;
+  opacity: 0.9;
 }

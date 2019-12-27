@@ -3,11 +3,11 @@
     <div class="banner-container">
       <h1>Enflammons <strong>7,3 millions</strong> de passionnés esport</h1>
       <p>1er organisateur de tournois esport</p>
-      <a class="call-btn" href="#">DÉCOUVRIR</a>
+      <a id="discover-btn" href="#discover">DÉCOUVRIR</a>
     </div>
   </div>
 
-  <div class="carousel">
+  <div class="carousel" id="discover">
     <h2>Ils ont joué, ils ont gagné...</h2>
     <section class="customer-logos slick-slider">
       <div class="slick-slide"><img src="https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6269-sony.png?date=20170628-2" alt="Sony"></div>
@@ -34,7 +34,16 @@
   </div>
 </div>
 
-<div class="morpheus" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6295-morpheus.png?date=20170628-2);">
+<div class="choice" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://d2m5zqqcosbe2i.cloudfront.net/uploads/media/1/6295-morpheus.png?date=20170628-2);">
+  <div class="choice-container">
+    <%= link_to "NOS RÉALISATIONS", pages_realisations_path, class:"call-btn" %>
+    <%= link_to "NOS OFFRES", pages_offers_path, class:"call-btn" %>
+  </div>
+</div>
+
+<div class="contact-form">
+  <h2>CONTACT</h2>
+  <p>contactez nous directement par mail sur <a href="mailto:'hello@glory4gamers.com">hello@glory4gamers.com</a></p>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>

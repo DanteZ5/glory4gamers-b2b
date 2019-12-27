@@ -7,15 +7,19 @@
 }
 
 .value-container {
+  position: absolute;
   padding: 120px 40px;
-  position: relative;
   color: white;
+  h2 {
+    font-size: 6vh;
+    text-align: center;
+  }
   ul {
     margin-top: 40px;
     text-align: center;
   }
   li {
-    font-size: 25px;
+    font-size: 4vh;
     list-style-type: none;
     line-height: 2.5;
     span {
@@ -24,10 +28,38 @@
   }
 }
 
-.morpheus {
+.choice {
   background-size: contain;
+  background-color: #000;
   background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
-  height: 100vh;
+  align-items: flex-end;
+}
+
+.choice-container {
+  min-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  a {
+    margin: 0 10px;
+    width: 170px;
+    text-align: center;
+  }
+}
+
+.contact-form {
+  min-height: 33vh;
+  padding: 40px;
+  text-align: center;
+  a {
+    color: $red;
+  }
+}
+
+.form-actions {
+  // text-align: center;
 }

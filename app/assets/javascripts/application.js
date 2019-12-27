@@ -1,6 +1,5 @@
 //= require rails-ujs
 //= require_tree .
-console.log('coucou');
 
 var logo = $('.customer-logos');
 if (logo.length) {
@@ -26,3 +25,21 @@ if (logo.length) {
   });
 }
 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    document.getElementById("navbar-glory").classList.add("bg-black");
+  } else {
+    document.getElementById("navbar-glory").classList.remove("bg-black");
+  }
+}
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
