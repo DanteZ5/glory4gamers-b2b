@@ -97,3 +97,30 @@
     padding-bottom: 2px;
   }
 }
+
+.real-other-projects {
+  width: 1024px;
+  margin: 0 auto 30px auto;
+}
+
+.real-projects-container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.real-project {
+  img {
+    width: 300px;
+  }
+}
+
+.project-title {
+  color: #DDD;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.project-subtitle {
+  font-size: 18px;
+}
